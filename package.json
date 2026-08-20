@@ -1,6 +1,6 @@
 {
   "name": "@qtjg/dsh-plugin-git-context",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A DeepSeek Harness plugin that exposes bounded Git status, diff, and log context to the model.",
   "publishConfig": {
     "access": "public"
@@ -37,6 +37,7 @@
     "@deepseek-ai/cordis": ">=0.1.0-rc.8",
     "@deepseek-ai/dsh-subprocess": ">=0.1.0-rc.8",
     "@deepseek-ai/dsh-tools": ">=0.1.0-rc.8",
+    "@deepseek-ai/dsh-llm": ">=0.1.0-rc.8",
     "@deepseek-ai/schemastery": ">=3.0.0"
   },
   "devDependencies": {
