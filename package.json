@@ -1,0 +1,62 @@
+{
+  "name": "@qtjg/dsh-plugin-git-context",
+  "version": "0.1.0",
+  "description": "A DeepSeek Harness plugin that exposes bounded Git status, diff, and log context to the model.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qtjg/dsh-plugin-git-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qtjg/dsh-plugin-git-context/issues"
+  },
+  "homepage": "https://github.com/qtjg/dsh-plugin-git-context#readme",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=0.1.0-rc.8",
+    "@deepseek-ai/dsh-subprocess": ">=0.1.0-rc.8",
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.8",
+    "@deepseek-ai/schemastery": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "4.0.1",
+    "@deepseek-ai/dsh-subprocess": "0.1.0-rc.8",
+    "@deepseek-ai/dsh-subprocess-local": "0.1.0-rc.8",
+    "@deepseek-ai/dsh-llm": "0.1.0-rc.8",
+    "@deepseek-ai/dsh-system-prompt": "0.1.0-rc.8",
+    "@deepseek-ai/dsh-tools": "0.1.0-rc.8",
+    "@deepseek-ai/schemastery": "3.18.1",
+    "@types/node": "^22.20.0",
+    "oxlint": "^1.76.0",
+    "tsdown": "^0.22.2",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "typecheck": "tsc -b tsconfig.json --pretty false",
+    "test": "vitest run",
+    "lint": "oxlint src tests"
+  }
+}
