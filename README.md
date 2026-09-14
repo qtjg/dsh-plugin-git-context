@@ -1,5 +1,10 @@
 # @qtjg/dsh-plugin-git-context
 
+<p align="center">
+  <img src="docs/assets/3d-banner.svg" alt="dsh-plugin-git-context 3D banner" width="880" />
+</p>
+
+
 <!-- ⬡ 3D-UPGRADE v1 by Mayank Bhaskar -->
 <div align="center">
 
@@ -99,6 +104,22 @@ node tests/packed-smoke.mjs
 ```
 
 The tests include invalid argument cases, a real local subprocess integration, a real Harness `ctx.llm` runtime integration with a deterministic adapter, and a built-artifact smoke test. The package is built as ESM with declaration files and keeps Harness services external as peer dependencies.
+
+
+---
+
+## 🧊 3D Visuals
+
+<p align="center">
+  <img src="docs/assets/3d-langs.svg" alt="dsh-plugin-git-context — 3D language stack" width="800" />
+</p>
+
+Isometric 3D language stack computed from live GitHub language stats.
+Regenerate the graphics any time with the built-in generator — stdlib only, zero dependencies:
+
+```bash
+python tools/generate_3d_assets.py
+```
 
 ## License
 
