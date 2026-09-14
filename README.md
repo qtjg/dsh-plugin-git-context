@@ -1,5 +1,23 @@
 # @qtjg/dsh-plugin-git-context
 
+<!-- ⬡ 3D-UPGRADE v1 by Mayank Bhaskar -->
+<div align="center">
+
+![dsh-plugin-git-context — 3D](assets/3d-hero.svg)
+
+**made by [Mayank Bhaskar](https://github.com/qtjg)** · ![lang](https://img.shields.io/badge/lang-TypeScript-34d399?style=flat&labelColor=0d1117) ![stars](https://img.shields.io/github/stars/qtjg/dsh-plugin-git-context?style=flat&labelColor=0d1117&color=34d399)
+
+### 🧊 3D View
+
+![dsh-plugin-git-context — isometric stack](assets/3d-stack.svg)
+
+*Floating isometric render — layers hover, data particles stream, shine sweeps.*
+
+</div>
+
+---
+🩺 **New tool — `repo-pulse`**: instant git pulse (28-day heat bars, hot files, contributors). Run: `node tools/repo-pulse.mjs`
+
 `@qtjg/dsh-plugin-git-context` adds two model-facing tools to [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). `git_context` exposes bounded Git status, diff, and recent log views. `git_review` sends the current unstaged diff through the Harness `ctx.llm` service for an independent review pass and returns concrete findings.
 
 ## Requirements
