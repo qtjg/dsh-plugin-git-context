@@ -5,18 +5,10 @@
 </p>
 
 
-<!-- ⬡ 3D-UPGRADE v1 by Mayank Bhaskar -->
+<!-- ⬡ 3D-UPGRADE v2 by Mayank Bhaskar -->
 <div align="center">
 
-![dsh-plugin-git-context — 3D](assets/3d-hero.svg)
-
 **made by [Mayank Bhaskar](https://github.com/qtjg)** · ![lang](https://img.shields.io/badge/lang-TypeScript-34d399?style=flat&labelColor=0d1117) ![stars](https://img.shields.io/github/stars/qtjg/dsh-plugin-git-context?style=flat&labelColor=0d1117&color=34d399)
-
-### 🧊 3D View
-
-![dsh-plugin-git-context — isometric stack](assets/3d-stack.svg)
-
-*Floating isometric render — layers hover, data particles stream, shine sweeps.*
 
 </div>
 
