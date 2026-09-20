@@ -3,3 +3,15 @@ lib/
 coverage/
 *.tsbuildinfo
 .DS_Store
+.eslintcache
+
+
+# Node version managers
+.node-version
+
+.python-version
+
+
+# Python
+__pycache__/
+*.py[cod]
